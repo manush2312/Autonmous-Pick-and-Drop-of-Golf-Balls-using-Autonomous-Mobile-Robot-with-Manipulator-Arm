@@ -10,7 +10,9 @@ We are tasked with commanding an Autonomous Mobile Robot (AMR) equipped with a M
 
 # Approach
 1. Firstly, we need to generate a dataset to train our YOLO model. To achieve this, we manually recorded videos of our two golf balls and the mug. Subsequently, we extracted frames from these videos to obtain photos.
-`> ffmpeg -i input.mp4 -r 10 frame%04d.png
-> The -r 10 argument instructs FFmpeg to extract at a frame rate of 10 fps.`
+   ```bash
+   ffmpeg -i input.mp4 -r 10 frame%04d.png
+   The -r 10 argument instructs FFmpeg to extract at a frame rate of 10 fps.
+
 
 
