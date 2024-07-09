@@ -14,5 +14,5 @@ We are tasked with commanding an Autonomous Mobile Robot (AMR) equipped with a M
    ffmpeg -i input.mp4 -r 10 frame%04d.png
    The -r 10 argument instructs FFmpeg to extract at a frame rate of 10 fps.
 
-   Sample Video (Manual) [Link](https://drive.google.com/file/d/1xmijLcZESwT4F2RY6v5KCgVm1w0Q2_K5/view?usp=sharing)
+   Sample Video (Manual) [Link][(https://drive.google.com/file/d/1xmijLcZESwT4F2RY6v5KCgVm1w0Q2_K5/view?usp=sharing)](https://drive.google.com/file/d/1xmijLcZESwT4F2RY6v5KCgVm1w0Q2_K5/view?usp=sharing)
 2.
