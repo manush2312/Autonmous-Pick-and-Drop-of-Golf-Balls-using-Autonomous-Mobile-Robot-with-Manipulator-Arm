@@ -13,6 +13,5 @@ We are tasked with commanding an Autonomous Mobile Robot (AMR) equipped with a M
    ```bash
    ffmpeg -i input.mp4 -r 10 frame%04d.png
    The -r 10 argument instructs FFmpeg to extract at a frame rate of 10 fps.
-
-   Sample Video (Manual) [Link][(https://drive.google.com/file/d/1xmijLcZESwT4F2RY6v5KCgVm1w0Q2_K5/view?usp=sharing)](https://drive.google.com/file/d/1xmijLcZESwT4F2RY6v5KCgVm1w0Q2_K5/view?usp=sharing)
-2.
+2. After that, we manually drew bounding boxes around the objects and created a dataset for the YOLO model.
+   ![Screenshot from 2024-06-17 17-33-52](https://github.com/manush2312/Autonmous-Pick-and-Drop-of-Golf-Balls-using-Autonomous-Mobile-Robot-with-Manipulator-Arm/assets/112979444/7b26c54b-a16d-40a7-9eaa-468f45e6e28e)
