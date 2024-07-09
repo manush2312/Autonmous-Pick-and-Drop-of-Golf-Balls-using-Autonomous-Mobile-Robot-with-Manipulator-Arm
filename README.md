@@ -1,4 +1,5 @@
-### Note : Due to company policies, I am unable to share any of the code. However, I can explain the approach we took to achieve this milestone.
+> [!NOTE]
+> Due to company policies, I am unable to share any of the code. However, I can explain the approach we took to achieve this milestone.
 
 # Autonmous-Pick-and-Drop-of-Golf-Balls-using-Autonomous-Mobile-Robot-with-Manipulator-Arm
 
@@ -6,4 +7,8 @@ We are tasked with commanding an Autonomous Mobile Robot (AMR) equipped with a M
 
 # Flowchart
 ![Screenshot from 2024-07-09 12-56-55](https://github.com/manush2312/Autonmous-Pick-and-Drop-of-Golf-Balls-using-Autonomous-Mobile-Robot-with-Manipulator-Arm/assets/112979444/852d5eaf-361d-4bcc-8f5a-d594b768ff02)
+
+# Approach
+1. Firstly, we need to generate a dataset to train our YOLO model. To achieve this, we manually recorded videos of our two golf balls and the mug. Subsequently, we extracted frames from these videos to obtain photos.
+2. 
 
