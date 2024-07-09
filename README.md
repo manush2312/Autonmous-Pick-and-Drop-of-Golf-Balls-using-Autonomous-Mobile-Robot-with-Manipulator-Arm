@@ -9,9 +9,11 @@ We are tasked with commanding an Autonomous Mobile Robot (AMR) equipped with a M
 ![Screenshot from 2024-07-09 12-56-55](https://github.com/manush2312/Autonmous-Pick-and-Drop-of-Golf-Balls-using-Autonomous-Mobile-Robot-with-Manipulator-Arm/assets/112979444/852d5eaf-361d-4bcc-8f5a-d594b768ff02)
 
 # Approach
-1. Firstly, we need to generate a dataset to train our YOLO model. To achieve this, we manually recorded videos of our two golf balls and the mug. Subsequently, we extracted frames from these videos to obtain photos.
-   ```bash
-   ffmpeg -i input.mp4 -r 10 frame%04d.png
-   The -r 10 argument instructs FFmpeg to extract at a frame rate of 10 fps.
-2. After that, we manually drew bounding boxes around the objects and created a dataset for the YOLO model.
-   ![Screenshot from 2024-06-17 17-33-52](https://github.com/manush2312/Autonmous-Pick-and-Drop-of-Golf-Balls-using-Autonomous-Mobile-Robot-with-Manipulator-Arm/assets/112979444/7b26c54b-a16d-40a7-9eaa-468f45e6e28e)
+1. Firstly, we will give a voice command indicating which ball to pick, which will be recorded into a WAV file.
+2. The recorded WAV file will be passed to the NVIDIA RIVA API, which converts speech to text.
+3. The extracted text file will be passed to an LSTM model, which will provide us with the class ID of the required ball.
+4. The obtained class ID will be passed to the YOLO model, which performs the object detection task.
+5. Now our Autonomous Mobile Robot will track the object, in our case ball, and will navigate towards it.
+6. Our AMR will reach the required ball and pick it up using its manipulator arm.
+7. Now, it will detect the mug and move towards it.
+8. On reaching the mug, it will drop the ball.
