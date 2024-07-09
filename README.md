@@ -20,3 +20,6 @@ We are tasked with commanding an Autonomous Mobile Robot (AMR) equipped with a M
 6. Our AMR will reach the required ball and pick it up using its manipulator arm.
 7. Now, it will detect the mug and move towards it.
 8. On reaching the mug, it will drop the ball.
+
+# Links
+The link for the results and dataset preparation is (Link)[https://drive.google.com/drive/folders/1n4rmUuMtyVJSERog5-JxNLMLBKBPAsAK?usp=sharing].
