@@ -1,5 +1,6 @@
 > [!NOTE]
 > Due to company policies, I am unable to share any of the code. However, I can explain the approach we took to achieve this milestone.
+
 > [!TIP]
 > We have primarily utilized NVIDIA platforms for this project.
 
