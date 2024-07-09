@@ -13,6 +13,4 @@ We are tasked with commanding an Autonomous Mobile Robot (AMR) equipped with a M
    ```bash
    ffmpeg -i input.mp4 -r 10 frame%04d.png
    The -r 10 argument instructs FFmpeg to extract at a frame rate of 10 fps.
-
-
-
+2.
